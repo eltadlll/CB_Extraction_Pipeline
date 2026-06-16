@@ -1,0 +1,42 @@
+{
+  "concept": "house",
+  "description": "A house is a building that serves as a dwelling for humans, providing shelter from weather, privacy, and a dedicated space for daily activities such as sleeping, eating, and socializing. It is typically a permanent or semi-permanent structure designed for single-family occupancy, though variations exist, and its design and construction are influenced by cultural, economic, and environmental factors.",
+  "domain": "Engineering",
+  "key_processes": [
+    "Design",
+    "Construction",
+    "Maintenance",
+    "Occupancy",
+    "Renovation"
+  ],
+  "world_specs": [
+    "WorldSpec-Engineering",
+    "WorldSpec-Materials",
+    "WorldSpec-SocialScience",
+    "WorldSpec-Physics",
+    "WorldSpec-Energy"
+  ],
+  "relations": {
+    "involves": [
+      "Architects",
+      "Builders",
+      "Residents",
+      "Building Materials"
+    ],
+    "produces": [
+      "Shelter",
+      "Privacy",
+      "Comfort",
+      "Living Space"
+    ],
+    "requires": [
+      "Land",
+      "Labor",
+      "Capital",
+      "Utilities"
+    ],
+    "transforms": [
+      "Raw materials \u2192 Habitable structure"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "concept": "Evolution",
+  "description": "Evolution is the fundamental biological process by which heritable characteristics of biological populations change over successive generations. This process, driven by mechanisms such as mutation, natural selection, genetic drift, and gene flow, leads to the diversity of life on Earth, the adaptation of organisms to their environments, and the emergence of new species over vast spans of time.",
+  "domain": "Biology",
+  "key_processes": [
+    "Mutation",
+    "Natural Selection",
+    "Genetic Drift",
+    "Gene Flow",
+    "Reproduction with Variation"
+  ],
+  "world_specs": [
+    "WorldSpec-Biology",
+    "WorldSpec-Ecology",
+    "WorldSpec-Chemistry",
+    "WorldSpec-Information"
+  ],
+  "relations": {
+    "involves": [
+      "Genetic variation",
+      "Populations",
+      "Environmental pressures"
+    ],
+    "produces": [
+      "Biodiversity",
+      "Adaptation",
+      "Speciation"
+    ],
+    "requires": [
+      "Heritable traits",
+      "Differential fitness",
+      "Time"
+    ],
+    "transforms": [
+      "Ancestral populations \u2192 Diverse descendant species"
+    ]
+  }
+}

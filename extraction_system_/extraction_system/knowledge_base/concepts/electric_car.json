@@ -1,0 +1,41 @@
+{
+  "concept": "electric car",
+  "description": "An electric car is an automobile propelled by one or more electric motors, using energy stored in rechargeable batteries. Unlike conventional internal combustion engine vehicles, electric cars produce zero tailpipe emissions, contributing to reduced air pollution and reliance on fossil fuels. They typically offer instant torque, quiet operation, and can be charged at home or public charging stations, representing a significant shift in automotive technology and sustainable transportation.",
+  "domain": "Engineering",
+  "key_processes": [
+    "Battery charging",
+    "Energy conversion (electrical to mechanical)",
+    "Regenerative braking",
+    "Power management",
+    "Motor control"
+  ],
+  "world_specs": [
+    "WorldSpec-Engineering",
+    "WorldSpec-Energy",
+    "WorldSpec-Physics",
+    "WorldSpec-Economics",
+    "WorldSpec-Materials"
+  ],
+  "relations": {
+    "involves": [
+      "Electric motor",
+      "Battery pack",
+      "Power electronics",
+      "Charging infrastructure"
+    ],
+    "produces": [
+      "Mechanical motion",
+      "Reduced emissions",
+      "Heat"
+    ],
+    "requires": [
+      "Electricity",
+      "Charging station",
+      "Battery management system",
+      "Driver input"
+    ],
+    "transforms": [
+      "Electrical energy \u2192 Mechanical energy"
+    ]
+  }
+}

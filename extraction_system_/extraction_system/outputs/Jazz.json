@@ -1,0 +1,131 @@
+{
+  "Concept": "Jazz",
+  "domain": "Arts",
+  "description": "Jazz is a music genre that originated in the African-American communities of New Orleans, United States, in the late 19th and early 20th centuries. It is characterized by improvisation, syncopation, polyrhythms, and a strong emphasis on swing and blues notes, often featuring a call-and-response pattern and a blend of African and European musical traditions, evolving into diverse subgenres and influencing global music.",
+  "core_predicates": [
+    "Improvisation",
+    "Composition",
+    "Performance",
+    "Arrangement",
+    "Listening"
+  ],
+  "concept_world_specs": [
+    "WorldSpec-SocialScience",
+    "WorldSpec-Cognition",
+    "WorldSpec-Information",
+    "WorldSpec-Philosophy"
+  ],
+  "relations": {
+    "involves": [
+      "Musicians",
+      "Musical Instruments",
+      "Cultural Traditions"
+    ],
+    "produces": [
+      "Musical Compositions",
+      "Live Performances",
+      "Emotional Experiences"
+    ],
+    "requires": [
+      "Improvisational Skill",
+      "Creativity",
+      "Collaboration"
+    ],
+    "transforms": [
+      "Musical Ideas \u2192 Expressive Performances"
+    ]
+  },
+  "V_predicate": {
+    "Property": [
+      {
+        "id": "property-1",
+        "name": "spontaneous-creation",
+        "WorldSpecSet": [
+          "WorldSpec-Cognition",
+          "WorldSpec-SocialScience",
+          "WorldSpec-Information",
+          "WorldSpec-Philosophy"
+        ],
+        "degree": "degree-1",
+        "centrality": 0.95,
+        "description": "Jazz is fundamentally characterized by the spontaneous creation of musical ideas during performance."
+      },
+      {
+        "id": "property-2",
+        "name": "rhythmic-complexity",
+        "WorldSpecSet": [
+          "WorldSpec-Mathematics",
+          "WorldSpec-Cognition",
+          "WorldSpec-SocialScience",
+          "WorldSpec-Information"
+        ],
+        "degree": "degree-1",
+        "centrality": 0.9,
+        "description": "Jazz incorporates intricate rhythmic structures, including syncopation, polyrhythms, and a distinctive swing feel."
+      },
+      {
+        "id": "property-3",
+        "name": "cultural-synthesis",
+        "WorldSpecSet": [
+          "WorldSpec-SocialScience",
+          "WorldSpec-Philosophy",
+          "WorldSpec-Information",
+          "WorldSpec-Cognition"
+        ],
+        "degree": "degree-1",
+        "centrality": 0.88,
+        "description": "Jazz emerged as a unique blend of African and European musical traditions, rooted in African-American communities."
+      },
+      {
+        "id": "property-4",
+        "name": "expressive-performance",
+        "WorldSpecSet": [
+          "WorldSpec-Cognition",
+          "WorldSpec-SocialScience"
+        ],
+        "degree": "degree-2",
+        "centrality": 0.7,
+        "description": "Jazz performances are highly expressive, aiming to evoke strong emotional experiences in both musicians and listeners."
+      },
+      {
+        "id": "property-5",
+        "name": "genre-evolution",
+        "WorldSpecSet": [
+          "WorldSpec-SocialScience",
+          "WorldSpec-Information"
+        ],
+        "degree": "degree-2",
+        "centrality": 0.65,
+        "description": "Jazz is a dynamic music genre that continuously evolves into diverse subgenres and influences global musical landscapes."
+      },
+      {
+        "id": "property-6",
+        "name": "interactive-dialogue",
+        "WorldSpecSet": [
+          "WorldSpec-SocialScience"
+        ],
+        "degree": "degree-3",
+        "centrality": 0.45,
+        "description": "A common structural element in jazz is the call-and-response pattern, fostering musical dialogue."
+      },
+      {
+        "id": "property-7",
+        "name": "instrumental-medium",
+        "WorldSpecSet": [
+          "WorldSpec-Physics"
+        ],
+        "degree": "degree-4",
+        "centrality": 0.35,
+        "description": "Jazz is primarily performed through a wide array of musical instruments, each contributing to the ensemble's sound."
+      },
+      {
+        "id": "property-8",
+        "name": "global-reach",
+        "WorldSpecSet": [],
+        "degree": "degree-5",
+        "centrality": 0.2,
+        "description": "Jazz has achieved significant global recognition and has influenced various music genres worldwide."
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+; ── Concept: Jazz ─────────────────────────────────────────
+(Concept Jazz)
+(Domain Jazz "Arts")
+(Description Jazz "Jazz is a music genre that originated in the African-American communities of New Orleans, United States, in the late 19th and early 20th centuries. It is characterized by improvisation, syncopation, polyrhythms, and a strong emphasis on swing and blues notes, often featuring a call-and-response pattern and a blend of African and European musical traditions, evolving into diverse subgenres and influencing global music.")
+
+(CorePredicate Jazz "Improvisation")
+(CorePredicate Jazz "Composition")
+(CorePredicate Jazz "Performance")
+(CorePredicate Jazz "Arrangement")
+(CorePredicate Jazz "Listening")
+
+(ConceptWorldSpecs Jazz (WorldSpec-SocialScience WorldSpec-Cognition WorldSpec-Information WorldSpec-Philosophy))
+
+(: spontaneous-creation (Property Jazz))
+(WorldSpecSet spontaneous-creation (WorldSpec-Cognition WorldSpec-SocialScience WorldSpec-Information WorldSpec-Philosophy))
+(Degree spontaneous-creation degree-1)
+(CentralityValue spontaneous-creation 0.9500)
+(Description spontaneous-creation "Jazz is fundamentally characterized by the spontaneous creation of musical ideas during performance.")
+
+(: rhythmic-complexity (Property Jazz))
+(WorldSpecSet rhythmic-complexity (WorldSpec-Mathematics WorldSpec-Cognition WorldSpec-SocialScience WorldSpec-Information))
+(Degree rhythmic-complexity degree-1)
+(CentralityValue rhythmic-complexity 0.9000)
+(Description rhythmic-complexity "Jazz incorporates intricate rhythmic structures, including syncopation, polyrhythms, and a distinctive swing feel.")
+
+(: cultural-synthesis (Property Jazz))
+(WorldSpecSet cultural-synthesis (WorldSpec-SocialScience WorldSpec-Philosophy WorldSpec-Information WorldSpec-Cognition))
+(Degree cultural-synthesis degree-1)
+(CentralityValue cultural-synthesis 0.8800)
+(Description cultural-synthesis "Jazz emerged as a unique blend of African and European musical traditions, rooted in African-American communities.")
+
+(: expressive-performance (Property Jazz))
+(WorldSpecSet expressive-performance (WorldSpec-Cognition WorldSpec-SocialScience))
+(Degree expressive-performance degree-2)
+(CentralityValue expressive-performance 0.7000)
+(Description expressive-performance "Jazz performances are highly expressive, aiming to evoke strong emotional experiences in both musicians and listeners.")
+
+(: genre-evolution (Property Jazz))
+(WorldSpecSet genre-evolution (WorldSpec-SocialScience WorldSpec-Information))
+(Degree genre-evolution degree-2)
+(CentralityValue genre-evolution 0.6500)
+(Description genre-evolution "Jazz is a dynamic music genre that continuously evolves into diverse subgenres and influences global musical landscapes.")
+
+(: interactive-dialogue (Property Jazz))
+(WorldSpecSet interactive-dialogue (WorldSpec-SocialScience))
+(Degree interactive-dialogue degree-3)
+(CentralityValue interactive-dialogue 0.4500)
+(Description interactive-dialogue "A common structural element in jazz is the call-and-response pattern, fostering musical dialogue.")
+
+(: instrumental-medium (Property Jazz))
+(WorldSpecSet instrumental-medium (WorldSpec-Physics))
+(Degree instrumental-medium degree-4)
+(CentralityValue instrumental-medium 0.3500)
+(Description instrumental-medium "Jazz is primarily performed through a wide array of musical instruments, each contributing to the ensemble's sound.")
+
+(: global-reach (Property Jazz))
+(WorldSpecSet global-reach ())
+(Degree global-reach degree-5)
+(CentralityValue global-reach 0.2000)
+(Description global-reach "Jazz has achieved significant global recognition and has influenced various music genres worldwide.")

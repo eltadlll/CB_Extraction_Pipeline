@@ -1,0 +1,43 @@
+{
+  "concept": "Solar Energy",
+  "description": "Solar energy refers to the radiant light and heat emitted by the Sun, which can be harnessed and converted into various forms of usable energy using a range of technologies. It represents a clean, renewable, and abundant energy source, playing a crucial role in sustainable development by providing alternatives to fossil fuels for electricity generation, heating, and other applications, thereby mitigating environmental impact and reducing greenhouse gas emissions.",
+  "domain": "Energy",
+  "key_processes": [
+    "Photovoltaic effect",
+    "Solar thermal absorption",
+    "Concentrated solar power generation",
+    "Photosynthesis",
+    "Energy storage"
+  ],
+  "world_specs": [
+    "WorldSpec-Physics",
+    "WorldSpec-Engineering",
+    "WorldSpec-Thermodynamics",
+    "WorldSpec-Energy",
+    "WorldSpec-Ecology"
+  ],
+  "relations": {
+    "involves": [
+      "Sunlight",
+      "Photovoltaic cells",
+      "Solar thermal collectors",
+      "Inverters"
+    ],
+    "produces": [
+      "Electricity",
+      "Heat",
+      "Clean energy",
+      "Reduced carbon emissions"
+    ],
+    "requires": [
+      "Solar radiation",
+      "Conversion technologies",
+      "Infrastructure",
+      "Maintenance"
+    ],
+    "transforms": [
+      "Solar radiation \u2192 Electrical energy",
+      "Solar radiation \u2192 Thermal energy"
+    ]
+  }
+}

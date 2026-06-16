@@ -1,0 +1,128 @@
+{
+  "Concept": "Evolution",
+  "domain": "Biology",
+  "description": "Evolution is the fundamental biological process by which heritable characteristics of biological populations change over successive generations. This process, driven by mechanisms such as mutation, natural selection, genetic drift, and gene flow, leads to the diversity of life on Earth, the adaptation of organisms to their environments, and the emergence of new species over vast spans of time.",
+  "core_predicates": [
+    "heritable characteristics change",
+    "driven by mechanisms",
+    "leads to diversity of life"
+  ],
+  "concept_world_specs": [
+    "WorldSpec-Biology",
+    "WorldSpec-Ecology",
+    "WorldSpec-Chemistry",
+    "WorldSpec-Information"
+  ],
+  "relations": {
+    "involves": [
+      "Genetic variation",
+      "Populations",
+      "Environmental pressures"
+    ],
+    "produces": [
+      "Biodiversity",
+      "Adaptation",
+      "Speciation"
+    ],
+    "requires": [
+      "Heritable traits",
+      "Differential fitness",
+      "Time"
+    ],
+    "transforms": [
+      "Ancestral populations \u2192 Diverse descendant species"
+    ]
+  },
+  "V_predicate": {
+    "Property": [
+      {
+        "id": "property-1",
+        "name": "heritable-trait-change",
+        "WorldSpecSet": [
+          "WorldSpec-Biology",
+          "WorldSpec-Information",
+          "WorldSpec-Chemistry",
+          "WorldSpec-Ecology"
+        ],
+        "degree": "degree-1",
+        "centrality": 0.95,
+        "description": "The fundamental process involves the alteration of heritable characteristics within populations across generations."
+      },
+      {
+        "id": "property-2",
+        "name": "mechanism-driven-process",
+        "WorldSpecSet": [
+          "WorldSpec-Biology",
+          "WorldSpec-Ecology",
+          "WorldSpec-Information"
+        ],
+        "degree": "degree-1",
+        "centrality": 0.9,
+        "description": "Evolution is propelled by specific biological mechanisms including natural selection, mutation, genetic drift, and gene flow."
+      },
+      {
+        "id": "property-3",
+        "name": "biodiversity-adaptation-generation",
+        "WorldSpecSet": [
+          "WorldSpec-Biology",
+          "WorldSpec-Ecology",
+          "WorldSpec-Information"
+        ],
+        "degree": "degree-1",
+        "centrality": 0.88,
+        "description": "The long-term outcome of evolution is the generation of diverse life forms and their adaptation to various environments."
+      },
+      {
+        "id": "property-4",
+        "name": "long-temporal-process",
+        "WorldSpecSet": [
+          "WorldSpec-Biology",
+          "WorldSpec-Ecology"
+        ],
+        "degree": "degree-2",
+        "centrality": 0.7,
+        "description": "Evolution typically unfolds over vast spans of time, often requiring many generations for significant changes to accumulate."
+      },
+      {
+        "id": "property-5",
+        "name": "population-level-change",
+        "WorldSpecSet": [
+          "WorldSpec-Biology",
+          "WorldSpec-Ecology"
+        ],
+        "degree": "degree-2",
+        "centrality": 0.65,
+        "description": "Evolutionary changes occur at the level of populations, not individual organisms, affecting their genetic makeup over time."
+      },
+      {
+        "id": "property-6",
+        "name": "genetic-variation-dependency",
+        "WorldSpecSet": [
+          "WorldSpec-Biology",
+          "WorldSpec-Information"
+        ],
+        "degree": "degree-3",
+        "centrality": 0.5,
+        "description": "Genetic variation within a population is a prerequisite for evolutionary change, providing the raw material for selection."
+      },
+      {
+        "id": "property-7",
+        "name": "environmental-interaction",
+        "WorldSpecSet": [
+          "WorldSpec-Ecology"
+        ],
+        "degree": "degree-4",
+        "centrality": 0.4,
+        "description": "Organisms interact with their environment, which exerts selective pressures influencing the direction of evolutionary change."
+      },
+      {
+        "id": "property-8",
+        "name": "historical-record-formation",
+        "WorldSpecSet": [],
+        "degree": "degree-5",
+        "centrality": 0.15,
+        "description": "Evolution leaves a historical record in the form of fossils and genetic lineages, allowing for its study and reconstruction."
+      }
+    ]
+  }
+}

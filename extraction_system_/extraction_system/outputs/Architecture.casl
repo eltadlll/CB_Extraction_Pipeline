@@ -1,0 +1,56 @@
+(Concept Architecture
+  (V-predicate
+    (Property
+
+      (design-and-construction
+        (WorldSpecSet
+                  (WorldSpec-Engineering
+                   WorldSpec-Materials
+                   WorldSpec-Physics
+                   WorldSpec-SocialScience))
+        degree-1)
+
+      (space-conceptualization
+        (WorldSpecSet
+                  (WorldSpec-Engineering
+                   WorldSpec-SocialScience
+                   WorldSpec-Cognition))
+        degree-1)
+
+      (human-environment-creation
+        (WorldSpecSet
+                  (WorldSpec-SocialScience
+                   WorldSpec-Ecology
+                   WorldSpec-Engineering
+                   WorldSpec-Economics))
+        degree-1)
+
+      (structural-integrity-assurance
+        (WorldSpecSet
+                  (WorldSpec-Engineering
+                   WorldSpec-Physics
+                   WorldSpec-Materials))
+        degree-2)
+
+      (aesthetic-shaping
+        (WorldSpecSet
+                  (WorldSpec-SocialScience
+                   WorldSpec-Cognition))
+        degree-2)
+
+      (material-specification
+        (WorldSpecSet
+                  (WorldSpec-Materials))
+        degree-3)
+
+      (regulatory-compliance
+        (WorldSpecSet
+                  (WorldSpec-Economics
+                   WorldSpec-SocialScience))
+        degree-4)
+
+      (historical-documentation
+        (WorldSpecSet ())
+        degree-5)
+
+    )))

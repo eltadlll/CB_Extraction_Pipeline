@@ -1,0 +1,41 @@
+{
+  "concept": "Water Purification",
+  "description": "Water purification is the process of removing undesirable chemicals, biological contaminants, suspended solids, and gases from water to produce water fit for a specific purpose, such as drinking, industrial use, or medical applications. The goal is to make water safe and palatable for human consumption or suitable for other intended uses by reducing or eliminating impurities through various physical, chemical, and biological methods.",
+  "domain": "Engineering",
+  "key_processes": [
+    "Coagulation/Flocculation",
+    "Sedimentation",
+    "Filtration",
+    "Disinfection",
+    "Adsorption"
+  ],
+  "world_specs": [
+    "WorldSpec-Chemistry",
+    "WorldSpec-Biology",
+    "WorldSpec-Engineering",
+    "WorldSpec-Ecology",
+    "WorldSpec-Medicine"
+  ],
+  "relations": {
+    "involves": [
+      "Chemical agents",
+      "Filtration membranes",
+      "Microorganisms",
+      "Suspended solids"
+    ],
+    "produces": [
+      "Potable water",
+      "Treated water",
+      "Sludge"
+    ],
+    "requires": [
+      "Raw water",
+      "Energy",
+      "Infrastructure",
+      "Monitoring equipment"
+    ],
+    "transforms": [
+      "Contaminated water \u2192 Purified water"
+    ]
+  }
+}

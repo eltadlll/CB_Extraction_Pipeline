@@ -1,0 +1,55 @@
+(Concept Jazz
+  (V-predicate
+    (Property
+
+      (spontaneous-creation
+        (WorldSpecSet
+                  (WorldSpec-Cognition
+                   WorldSpec-SocialScience
+                   WorldSpec-Information
+                   WorldSpec-Philosophy))
+        degree-1)
+
+      (rhythmic-complexity
+        (WorldSpecSet
+                  (WorldSpec-Mathematics
+                   WorldSpec-Cognition
+                   WorldSpec-SocialScience
+                   WorldSpec-Information))
+        degree-1)
+
+      (cultural-synthesis
+        (WorldSpecSet
+                  (WorldSpec-SocialScience
+                   WorldSpec-Philosophy
+                   WorldSpec-Information
+                   WorldSpec-Cognition))
+        degree-1)
+
+      (expressive-performance
+        (WorldSpecSet
+                  (WorldSpec-Cognition
+                   WorldSpec-SocialScience))
+        degree-2)
+
+      (genre-evolution
+        (WorldSpecSet
+                  (WorldSpec-SocialScience
+                   WorldSpec-Information))
+        degree-2)
+
+      (interactive-dialogue
+        (WorldSpecSet
+                  (WorldSpec-SocialScience))
+        degree-3)
+
+      (instrumental-medium
+        (WorldSpecSet
+                  (WorldSpec-Physics))
+        degree-4)
+
+      (global-reach
+        (WorldSpecSet ())
+        degree-5)
+
+    )))

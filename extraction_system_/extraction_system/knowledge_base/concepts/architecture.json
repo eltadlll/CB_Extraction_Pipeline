@@ -1,0 +1,40 @@
+{
+  "concept": "Architecture",
+  "description": "Architecture is the art and science of designing and constructing buildings and other physical structures. It involves the creative process of conceptualizing spaces, considering their aesthetic appeal, functionality, structural integrity, and environmental impact, to create environments that serve human needs and enhance quality of life.",
+  "domain": "Engineering",
+  "key_processes": [
+    "Site Analysis",
+    "Conceptual Design",
+    "Technical Drawing",
+    "Material Specification",
+    "Construction Oversight"
+  ],
+  "world_specs": [
+    "WorldSpec-Engineering",
+    "WorldSpec-Materials",
+    "WorldSpec-Physics",
+    "WorldSpec-SocialScience",
+    "WorldSpec-Economics"
+  ],
+  "relations": {
+    "involves": [
+      "Architects",
+      "Engineers",
+      "Clients",
+      "Builders"
+    ],
+    "produces": [
+      "Buildings",
+      "Urban Spaces",
+      "Functional Designs"
+    ],
+    "requires": [
+      "Design Principles",
+      "Building Codes",
+      "Site Conditions"
+    ],
+    "transforms": [
+      "Client Needs \u2192 Built Environment"
+    ]
+  }
+}

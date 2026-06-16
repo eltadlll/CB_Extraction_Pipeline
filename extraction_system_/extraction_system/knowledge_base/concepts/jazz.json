@@ -1,0 +1,38 @@
+{
+  "concept": "Jazz",
+  "description": "Jazz is a music genre that originated in the African-American communities of New Orleans, United States, in the late 19th and early 20th centuries. It is characterized by improvisation, syncopation, polyrhythms, and a strong emphasis on swing and blues notes, often featuring a call-and-response pattern and a blend of African and European musical traditions, evolving into diverse subgenres and influencing global music.",
+  "domain": "Arts",
+  "key_processes": [
+    "Improvisation",
+    "Composition",
+    "Performance",
+    "Arrangement",
+    "Listening"
+  ],
+  "world_specs": [
+    "WorldSpec-SocialScience",
+    "WorldSpec-Cognition",
+    "WorldSpec-Information",
+    "WorldSpec-Philosophy"
+  ],
+  "relations": {
+    "involves": [
+      "Musicians",
+      "Musical Instruments",
+      "Cultural Traditions"
+    ],
+    "produces": [
+      "Musical Compositions",
+      "Live Performances",
+      "Emotional Experiences"
+    ],
+    "requires": [
+      "Improvisational Skill",
+      "Creativity",
+      "Collaboration"
+    ],
+    "transforms": [
+      "Musical Ideas \u2192 Expressive Performances"
+    ]
+  }
+}

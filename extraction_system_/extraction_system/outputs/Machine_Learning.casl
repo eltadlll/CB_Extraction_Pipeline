@@ -1,0 +1,55 @@
+(Concept MachineLearning
+  (V-predicate
+    (Property
+
+      (data-driven-learning
+        (WorldSpecSet
+                  (WorldSpec-ComputerScience
+                   WorldSpec-Information
+                   WorldSpec-Cognition
+                   WorldSpec-Mathematics))
+        degree-1)
+
+      (pattern-identification
+        (WorldSpecSet
+                  (WorldSpec-ComputerScience
+                   WorldSpec-Information
+                   WorldSpec-Cognition
+                   WorldSpec-Mathematics))
+        degree-1)
+
+      (predictive-decision-making
+        (WorldSpecSet
+                  (WorldSpec-ComputerScience
+                   WorldSpec-Mathematics
+                   WorldSpec-Engineering
+                   WorldSpec-Information))
+        degree-1)
+
+      (algorithmic-foundation
+        (WorldSpecSet
+                  (WorldSpec-ComputerScience
+                   WorldSpec-Mathematics))
+        degree-2)
+
+      (performance-optimization
+        (WorldSpecSet
+                  (WorldSpec-ComputerScience
+                   WorldSpec-Engineering))
+        degree-2)
+
+      (resource-intensive
+        (WorldSpecSet
+                  (WorldSpec-ComputerScience))
+        degree-3)
+
+      (knowledge-generalization
+        (WorldSpecSet
+                  (WorldSpec-Cognition))
+        degree-4)
+
+      (ethical-considerations
+        (WorldSpecSet ())
+        degree-5)
+
+    )))
