@@ -27,60 +27,61 @@ Three files are saved per concept: a .casl file with the algebraic S-expression,
 CASL — Evolution
 ────────────────────────────────────────────────────────────
 '''
-(Concept Evolution
-  (V-predicate
-    (Property
-    
-      (heritable-trait-change
-        (WorldSpecSet
-                  (WorldSpec-Biology
-                   WorldSpec-Information
-                   WorldSpec-Chemistry
-                   WorldSpec-Ecology))
-        degree-1)
 
-      (mechanism-driven-process
-        (WorldSpecSet
-                  (WorldSpec-Biology
-                   WorldSpec-Ecology
-                   WorldSpec-Information))
-        degree-1)
 
-      (biodiversity-adaptation-generation
-        (WorldSpecSet
-                  (WorldSpec-Biology
-                   WorldSpec-Ecology
-                   WorldSpec-Information))
-        degree-1)
-
-      (long-temporal-process
-        (WorldSpecSet
-                  (WorldSpec-Biology
-                   WorldSpec-Ecology))
-        degree-2)
-
-      (population-level-change
-        (WorldSpecSet
-                  (WorldSpec-Biology
-                   WorldSpec-Ecology))
-        degree-2)
-
-      (genetic-variation-dependency
-        (WorldSpecSet
-                  (WorldSpec-Biology
-                   WorldSpec-Information))
-        degree-3)
-
-      (environmental-interaction
-        (WorldSpecSet
-                  (WorldSpec-Ecology))
-        degree-4)
-
-      (historical-record-formation
-        (WorldSpecSet ())
-        degree-5)
-
-    )))
+    (Concept Evolution
+      (V-predicate
+      (Property
+        (heritable-trait-change
+          (WorldSpecSet
+                    (WorldSpec-Biology
+                     WorldSpec-Information
+                     WorldSpec-Chemistry
+                     WorldSpec-Ecology))
+          degree-1)
+  
+        (mechanism-driven-process
+          (WorldSpecSet
+                    (WorldSpec-Biology
+                     WorldSpec-Ecology
+                     WorldSpec-Information))
+          degree-1)
+  
+        (biodiversity-adaptation-generation
+          (WorldSpecSet
+                    (WorldSpec-Biology
+                     WorldSpec-Ecology
+                     WorldSpec-Information))
+          degree-1)
+  
+        (long-temporal-process
+          (WorldSpecSet
+                    (WorldSpec-Biology
+                     WorldSpec-Ecology))
+          degree-2)
+  
+        (population-level-change
+          (WorldSpecSet
+                    (WorldSpec-Biology
+                     WorldSpec-Ecology))
+          degree-2)
+  
+        (genetic-variation-dependency
+          (WorldSpecSet
+                    (WorldSpec-Biology
+                     WorldSpec-Information))
+          degree-3)
+  
+        (environmental-interaction
+          (WorldSpecSet
+                    (WorldSpec-Ecology))
+          degree-4)
+  
+        (historical-record-formation
+          (WorldSpecSet ())
+          degree-5)
+  
+      )))
 '''
 ---
 ---
