@@ -1,15 +1,17 @@
 # Extraction System — Quick Start Guide
 ---
 ## WHat is the project about 
-This is a property extraction and algebraic encoding pipeline built for the Conceptual Blending research project at iCog Labs. It sits at the first stage of the full Conceptual Blending system — before any blending happens, you need to deeply understand each concept on its own terms: what it is, what it does, and how strongly each of those properties defines it.The system takes two concepts as input — anything from Jazz to Quantum Computing to Democracy — and for each one it extracts exactly 8 defining properties, then encodes those properties in a formal algebraic representation that the blending engine can reason over symbolically.
+This is a property extraction and algebraic encoding pipeline built for the Conceptual Blending research project . It sits at the first stage of the full Conceptual Blending system  before any blending happens, you need to deeply understand each concept on its own terms: what it is, what it does, and how strongly each of those properties defines it.The system takes two concepts as input  anything from Jazz to Quantum Computing to Democracy  and for each one it extracts exactly 8 defining properties, then encodes those properties in a formal algebraic representation that the blending engine can reason over symbolically.
 
 ## What it does
 ### Step 1 — Knowledge Base Generation
 
-Before extracting properties, the system builds a structured knowledge base entry for each concept automatically. It sends the concept name to Gemini and gets back a semantic profile: the domain it belongs to, the processes it involves, the entities it relates to, and the ontological worlds it inhabits. This profile is cached locally as a JSON file so it never needs to be generated again — the more concepts you run through the system, the richer your knowledge base becomes over time.
+Before extracting properties, the system builds a structured knowledge base entry for each concept automatically. It sends the concept name to Gemini and gets back a semantic profile: the domain it belongs to, the processes it involves, the entities it relates to, and the ontological worlds it inhabits. This profile is cached locally as a JSON file so it never needs to be generated again  the more concepts you run through the system, the richer your knowledge base becomes over time.
+
 ### Step 2 — Property Extraction
 
 Using that knowledge base context, a Gemini agent extracts exactly 8 properties per concept. These are not just keywords or tags — each property is a symbolic predicate that captures something the concept does or is. The 8 properties follow a strict distribution from most core to most peripheral: the first three are the definitional heart of the concept, the middle properties are supporting characteristics, and the final property is abstract or emergent — something that exists at the edge of the concept's meaning.
+
 ### Step 3 — Algebraic Encoding
 
 Each property is encoded with two pieces of algebraic metadata:
@@ -18,6 +20,7 @@ WorldSpecSet — the set of ontological domains the property inhabits, drawn fro
 Degree — a symbolic label from degree-1 (core, centrality 0.85–1.0) down to degree-5 (peripheral, centrality 0.0–0.25) that captures how strongly the property defines the concept.
 
 The final output is a CASL S-expression — a formal algebraic representation of the concept and all its properties in a structure that symbolic reasoning engines like MeTTa/Hyperon can directly process.
+
 ### Step 4 — Output
 
 
