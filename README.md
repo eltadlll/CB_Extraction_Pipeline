@@ -23,10 +23,8 @@ The final output is a CASL S-expression — a formal algebraic representation of
 
 Three files are saved per concept: a .casl file with the algebraic S-expression, a .metta file with Hyperon-compatible atoms that are also appended to the shared knowledge base for future reasoning, and a .json file with the full structured output for downstream use.
 
-────────────────────────────────────────────────────────────
-CASL — Evolution
-────────────────────────────────────────────────────────────
-'''
+
+
 
 
     (Concept Evolution
@@ -82,7 +80,7 @@ CASL — Evolution
           degree-5)
   
       )))
-'''
+
 ---
 ---
 
