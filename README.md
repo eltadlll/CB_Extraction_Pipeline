@@ -20,7 +20,67 @@ Degree — a symbolic label from degree-1 (core, centrality 0.85–1.0) down to 
 The final output is a CASL S-expression — a formal algebraic representation of the concept and all its properties in a structure that symbolic reasoning engines like MeTTa/Hyperon can directly process.
 ### Step 4 — Output
 
+
 Three files are saved per concept: a .casl file with the algebraic S-expression, a .metta file with Hyperon-compatible atoms that are also appended to the shared knowledge base for future reasoning, and a .json file with the full structured output for downstream use.
+'''
+────────────────────────────────────────────────────────────
+CASL — Evolution
+────────────────────────────────────────────────────────────
+(Concept Evolution
+  (V-predicate
+    (Property
+
+      (heritable-trait-change
+        (WorldSpecSet
+                  (WorldSpec-Biology
+                   WorldSpec-Information
+                   WorldSpec-Chemistry
+                   WorldSpec-Ecology))
+        degree-1)
+
+      (mechanism-driven-process
+        (WorldSpecSet
+                  (WorldSpec-Biology
+                   WorldSpec-Ecology
+                   WorldSpec-Information))
+        degree-1)
+
+      (biodiversity-adaptation-generation
+        (WorldSpecSet
+                  (WorldSpec-Biology
+                   WorldSpec-Ecology
+                   WorldSpec-Information))
+        degree-1)
+
+      (long-temporal-process
+        (WorldSpecSet
+                  (WorldSpec-Biology
+                   WorldSpec-Ecology))
+        degree-2)
+
+      (population-level-change
+        (WorldSpecSet
+                  (WorldSpec-Biology
+                   WorldSpec-Ecology))
+        degree-2)
+
+      (genetic-variation-dependency
+        (WorldSpecSet
+                  (WorldSpec-Biology
+                   WorldSpec-Information))
+        degree-3)
+
+      (environmental-interaction
+        (WorldSpecSet
+                  (WorldSpec-Ecology))
+        degree-4)
+
+      (historical-record-formation
+        (WorldSpecSet ())
+        degree-5)
+
+    )))
+'''
 ---
 ---
 
